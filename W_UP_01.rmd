@@ -61,11 +61,14 @@ basicCN + geom_boxplot()
 ```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="skill vs line pushups")
 ```
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
-We can see that the LINE players are much heavier than the SKILL players causing the average of LINE pushups to be smaller than that of the SKILL players.  LINE players are all consistently above 200 pounds and most barely making it above 20 pushups, while the SKILL players are mostly below 200 pounds and all have consistently better scores than that of the LINE players.
+```{r}
+favstats(X~weight,data=mydata)
+```
 
 ## Inferential Results
 
