@@ -27,15 +27,21 @@ $H_0$: There is no difference between the average number of pushups of line vs s
 
 $H_A$: The average number of pushups done by line players is statistically different than that of skill players.
 
+
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+We are trying to find how skill players on a football team vs line player on a football team do against each other doing pushups. The data comes from Georgetown on how many each player could do in two minutes.  We want to find if there is a consistency between line players and skill player with pushups.  A variable is a quantity, quality, or property that you can measure. We can measure and compare the football players with the graphical method of our boxplot and thus allowing us to perform our variable analysis on the data given to us.
+
 
 # Results
 
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
 
 ## Descriptive Results
+
+Given the data, we can see that SKILL players perform much better than the line players in the pushup comparison. We can easily see that SKILL players have the advantage because of their weight, the weight seems to be a contributing factor that causes the SKILL players to have a much better advantage in the pushup study.
 
 ### Graphical Descriptive Results
 
@@ -59,12 +65,16 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+We can see that the LINE players are much heavier than the SKILL players causing the average of LINE pushups to be smaller than that of the SKILL players.  LINE players are all consistently above 200 pounds and most barely making it above 20 pushups, while the SKILL players are mostly below 200 pounds and all have consistently better scores than that of the LINE players.
+
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+My hypothesis is that SKILL players are better at pushups because of their weight class and specialized training. The test stastics show that SKILL players perform much better than LINE player on average under a 2 minute time constraint.  The test was grounded on finding the best methods for improving the strength in players, and how certain positions effect that strength.   These assumptions don't completely satisfy the answer needed because of the exclusion of many elements that would allow us to calculated exactly how a player performs.  
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+In conclusion, I believe that SKILL and LINE players have drastically different results because of the weight comparison between LINE and SKILL players.  The research shows that weight is directly effecting player pushups however there are some outliers, which leads me to believe that the inferential numbers in the equation are caused by unknown training that directly effects pushup capability.  
