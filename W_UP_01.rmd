@@ -74,10 +74,14 @@ favstats(X~weight,data=mydata)
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-My hypothesis is that SKILL players are better at pushups because of their weight class and specialized training. The test stastics show that SKILL players perform much better than LINE player on average under a 2 minute time constraint.  The test was grounded on finding the best methods for improving the strength in players, and how certain positions effect that strength.   These assumptions don't completely satisfy the answer needed because of the exclusion of many elements that would allow us to calculated exactly how a player performs.  
+```{r}
+t.test(pushups~position,data=mydata)
+```
+
+p-value is equal to .000009421, the null hypothesis says that there is no difference in the average of the LINE vs SKILL even though SKILL has a much better average than LINE at 49.74
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-In conclusion, I believe that SKILL and LINE players have drastically different results because of the weight comparison between LINE and SKILL players.  The research shows that weight is directly effecting player pushups however there are some outliers, which leads me to believe that the inferential numbers in the equation are caused by unknown training that directly effects pushup capability.  
+In conclusion, I believe that SKILL and LINE players have drastically different results because of the weight comparison between LINE and SKILL players.  The research shows that weight is directly effecting player pushups however there are some outliers, which leads me to believe that the inferential numbers in the equation are caused by unknown training and motivation that directly effects pushup capability.  
